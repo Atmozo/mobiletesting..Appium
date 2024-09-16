@@ -20,7 +20,7 @@ public class AppiumDriverFactory {
 //        capabilities.setCapability("UDID", "emulator-5554");
 
         try {
-            driver = new AppiumDriver(new URL("http://127.0.0.1:4723/"), capabilities);
+            driver = new AppiumDriver(new URL("http://172.29.32.1:4723/"), capabilities);
 //            driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 
 
